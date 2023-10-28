@@ -1,0 +1,16 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+}
+
+.heading {
+    color: blanchedalmond;
+    text-shadow: -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                 -1px 1px 0 #000,
+                 1px 1px 0 #000;;
+}
+
+img {
+    border: 5px solid black;
+}
