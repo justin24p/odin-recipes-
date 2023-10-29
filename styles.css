@@ -9,8 +9,55 @@
                  1px -1px 0 #000,
                  -1px 1px 0 #000,
                  1px 1px 0 #000;;
+    text-align: center;
+    font-size: 70px;
+    border-bottom: 5px double brown;
+    border-top: 5px double brown;
 }
 
 img {
     border: 5px solid black;
+}
+
+.custom-list.format {
+    list-style: none;
+    padding: 0;
+}
+.custom-list {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center the list items horizontally */
+}
+
+.custom-list li {
+    display: inline-block; /* Display list items as inline blocks */
+    margin: 0 10px; /* Optional margin for spacing between list items */
+    
+}
+.custom-list a {
+    background-color: brown;
+    display: block;
+    background-color: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 3px solid black;
+    color: white;
+    margin-right: 10px;
+}
+
+.custom-list li::before {
+    content: none; /* Remove the square bullets */
+}
+
+.Description {
+    background-color: brown;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.images {
+    text-align: center;
+    margin-bottom: 40px ;
 }
